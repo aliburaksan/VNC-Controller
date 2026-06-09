@@ -1,3 +1,5 @@
+# VNC Controller IT Support ekibinin üretim hattındaki arızalara daha kısa sürede müdahale etmesi için işletme isterlerine uygun olarak tasarlanmıstır.
+
 import sys
 import os
 import subprocess
@@ -35,16 +37,16 @@ LOG_FILE = "vnc_log.json"
 MAX_LOG_ENTRIES = 500
 
 SHEET_MAP = {
-    "Montaj 1": "10.105.x.x",
-    "Montaj 2": "10.105.x.x",
-    "Montaj 3": "10.105.x.x",
-    "Üretim 39. Blok": "10.105.x.x"
+    "Montaj x": "10.105.x.x",
+    "Montaj x": "10.105.x.x",
+    "Montaj x": "10.105.x.x",
+    "Üretim x. Blok": "10.105.x.x"
 }
 OCTET_MAP = {
-    "Montaj 1": "36",
-    "Montaj 2": "37",
-    "Montaj 3": "38",
-    "Üretim 39. Blok": "39"
+    "Montaj x": "x",
+    "Montaj x": "x",
+    "Montaj x": "x",
+    "Üretim x. Blok": "x"
 }
 
 # ─────────────────── RENK PALETİ ───────────────────
